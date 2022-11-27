@@ -10,8 +10,7 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/IDontCodee/Tsunami
-          cd Tsunami
+          https://github.com/OsmiumNetwork/Copium.git
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
