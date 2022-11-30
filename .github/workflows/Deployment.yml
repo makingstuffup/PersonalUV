@@ -10,7 +10,7 @@ jobs:
       # Runs the specified commands commands to get Ultraviolet-Node running.
       - name: run ultraviolet
         run: |
-          git clone https://github.com/OsmiumNetwork/Copium.git
+          git clone https://github.com/Weeb-Network/wc.git
           npm install
           screen -dm npm start
       - name: tunnel and expose to web
